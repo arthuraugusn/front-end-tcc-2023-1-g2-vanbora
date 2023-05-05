@@ -1,0 +1,164 @@
+.text-container {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  gap: 2.5rem;
+}
+
+.black {
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.none {
+  display: none;
+}
+
+.nav-itens {
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.button-login {
+  cursor: pointer;
+  height: 3rem;
+  width: 10rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeb600;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.menu-burguer-container {
+  position: relative;
+  display: none;
+  align-items: center;
+  height: 36px;
+  width: 36px;
+}
+.menu-burguer,
+.menu-burguer::before,
+.menu-burguer::after {
+  position: absolute;
+  content: "";
+  display: block;
+  height: 4px;
+  width: 36px;
+  background-color: #fff;
+  transition: all 0.5s;
+}
+.menu-burguer::before {
+  transform: translateY(-12px);
+}
+.menu-burguer::after {
+  transform: translateY(12px);
+}
+.menu-burguer-container.show .menu-burguer {
+  background-color: transparent;
+}
+.menu-burguer-container.show .menu-burguer::before {
+  transform: rotate(45deg);
+}
+.menu-burguer-container.show .menu-burguer::after {
+  transform: rotate(-45deg);
+}
+
+@media (max-width: 865px) {
+  .menu-burguer-container {
+    display: flex;
+    z-index: 1;
+  }
+  .text-container {
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 300;
+    gap: 65px;
+    transform: translate(100%);
+    transition: all 1s;
+  }
+  .menu-burguer-container.show ~ .text-container {
+    transform: translate(0);
+  }
+}
+
+/* Estilo para o botão do menu */
+.dropbtn {
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilo para o menu dropdown */
+.dropdown {
+  position: relative;
+}
+
+/* Estilo para o conteúdo do menu dropdown */
+.dropdown-content-perfil {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: auto;
+}
+
+/* Estilo para os links do menu dropdown */
+.dropdown-content-perfil p {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Estilo para o link do menu dropdown quando o mouse passa por cima */
+.dropdown-content-perfil p:hover {
+  background-color: #f1f1f1;
+}
+
+/* Estilo para mostrar o menu dropdown quando o botão é clicado */
+.dropdown:hover .dropdown-content-perfil {
+  display: block;
+}
+
+/* Estilo para a animação do menu dropdown */
+.dropdown-content-perfil {
+  animation-name: slide-down;
+  animation-duration: 0.4s;
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}

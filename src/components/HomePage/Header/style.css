@@ -1,0 +1,10 @@
+.header-logo-menu-burguer {
+  height: auto;
+  width: 100%;
+  padding-top: 5vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

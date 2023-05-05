@@ -1,0 +1,54 @@
+.container-main-home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.vanbora-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.vanbora-title {
+  display: flex;
+}
+
+#vanbora-title {
+  font-size: 9rem;
+  font-family: "Mansalva", cursive;
+}
+
+.vanbora-title1 {
+  color: #e0b441;
+}
+
+.vanbora-title2 {
+  color: white;
+}
+
+.vanbora-subtitle-mensage {
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 865px) {
+  #vanbora-title {
+    font-size: 5rem;
+    font-family: "Mansalva", cursive;
+  }
+  .vanbora-subtitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .vanbora-subtitle-mensage {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+}

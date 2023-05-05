@@ -1,0 +1,21 @@
+.body-login-page {
+  height: 100vh;
+  display: flex;
+  background-image: linear-gradient(
+    to right,
+    white 0,
+    white 50%,
+    var(--main-yellow) 50%
+  );
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 1000px) {
+  .body-login-page {
+    background-image: none;
+    gap: 20px;
+    width: auto;
+    height: auto;
+  }
+}

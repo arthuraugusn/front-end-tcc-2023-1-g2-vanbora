@@ -1,0 +1,39 @@
+.ball {
+  background-color: #f9ab03;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  height: 2rem;
+  width: 2rem;
+}
+
+.logo-content {
+  display: flex;
+  justify-content: center;
+}
+
+.name_logo_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  padding-left: 5px;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black;
+}
+
+.name {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+.material-symbols-outlined {
+  color: white;
+}

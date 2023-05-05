@@ -1,0 +1,20 @@
+.button {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background: var(--main-yellow);
+  border: 1px solid black;
+  font-size: 1.5rem;
+  padding: 0.5rem 3.5rem;
+  border-radius: 10px;
+  box-shadow: 10px 8px 0 1px black;
+  transition: 0.2s;
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateX(10px);
+  transform: translateY(5px);
+}
