@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/css/main.da07514c.css",
+    "main.js": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/js/main.56736bd9.js",
+    "static/js/787.951e21a1.chunk.js": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/js/787.951e21a1.chunk.js",
+    "static/media/material-symbols-rounded.woff2": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/media/material-symbols-rounded.0d6e3b98940e36861c2c.woff2",
+    "static/media/material-symbols-outlined.woff2": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/media/material-symbols-outlined.b2385d31d58ea15caa6b.woff2",
+    "static/media/material-symbols-sharp.woff2": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/media/material-symbols-sharp.2372bcc6f5d039904009.woff2",
+    "index.html": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/index.html",
+    "main.da07514c.css.map": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/css/main.da07514c.css.map",
+    "main.56736bd9.js.map": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/js/main.56736bd9.js.map",
+    "787.951e21a1.chunk.js.map": "/arthuraugusn/front-end-tcc-2023-1-g2-vanbora/static/js/787.951e21a1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da07514c.css",
+    "static/js/main.56736bd9.js"
+  ]
+}
